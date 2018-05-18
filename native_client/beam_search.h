@@ -8,7 +8,7 @@
 
 #include "kenlm/lm/model.hh"
 
-typedef lm::ngram::QuantTrieModel Model;
+typedef lm::ngram::ArrayTrieModel Model;
 
 struct KenLMBeamState {
   float language_model_score;
